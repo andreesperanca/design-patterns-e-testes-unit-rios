@@ -1,6 +1,6 @@
 package com.voltaire.prateleiravirtual.desconto
 
-import com.voltaire.prateleiravirtual.model.Orcamento
+import com.voltaire.prateleiravirtual.orcamento.Orcamento
 
 abstract class Desconto (private val proximo: Desconto?) {
 

@@ -1,6 +1,6 @@
 package com.voltaire.prateleiravirtual.imposto
 
-import com.voltaire.prateleiravirtual.model.Orcamento
+import com.voltaire.prateleiravirtual.orcamento.Orcamento
 
 class PessoaFisica: Imposto {
     override fun calcular(orcamento: Orcamento) : Double {
